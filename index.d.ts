@@ -56,17 +56,17 @@ export interface Contact {
     backTitle: string;
     company: string;
     emailAddresses: EmailAddress[];
-    displayName: string | null;
+    displayName: string;
     familyName: string;
-    givenName: string | null;
+    givenName: string;
     middleName: string;
     jobTitle: string;
     phoneNumbers: PhoneNumber[];
     hasThumbnail: boolean;
     thumbnailPath: string;
     postalAddresses: PostalAddress[];
-    prefix: string | null;
-    suffix: string | null;
+    prefix: string;
+    suffix: string;
     department: string;
     birthday: Birthday;
     imAddresses: InstantMessageAddress[]
